@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brew House | Coffee Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#home"><span></span> Brew House</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">من نحن</a></li>
+        <li><a href="#menu">قائمتنا</a></li>
+        <li><a href="#gallery">معرض الصور</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+      </ul>
+      <a class="nav-button" href="#menu">اكتشف قائمتنا</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <!-- <p class="eyebrow">قهوتك المفضلة، في مكانك المفضل</p> -->
+        <h1>كل رشفة<br><span>لها حكاية</span></h1>
+        <p class="hero-text">استمتع بأجود أنواع القهوة والمشروبات المحضّرة بحب، في أجواء مريحة تستحق وقتك.</p>
+        <a class="primary-button" href="#menu">شاهد القائمة <span>←</span></a>
+      </div>
+      <div class="hero-badge"><strong>100%</strong><span>حب للقهوة</span></div>
+    </section>
+
+    <section class="about section container" id="about">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=85" alt="تحضير القهوة">
+        <div class="image-note">صُنعت بحب </div>
+      </div>
+      <div class="about-content">
+        <p class="section-kicker">حكايتنا</p>
+        <h2>أكثر من مجرد<br><span>فنجان قهوة</span></h2>
+        <p>في Brew House، نؤمن أن اللحظات الجميلة تبدأ بتفاصيل بسيطة. نختار حبوب القهوة بعناية ونحضّر كل مشروب لنقدم لك مذاقًا مميزًا وتجربة تستحق التكرار.</p>
+        <div class="about-points">
+          <div><span>✦</span><p>حبوب قهوة مختارة بعناية</p></div>
+          <div><span>✦</span><p>مكونات طازجة كل يوم</p></div>
+          <div><span>✦</span><p>أجواء دافئة ومريحة</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">اختار مزاجك</p>
+          <h2>من قائمتنا <span>إليك</span></h2>
+          <p>مشروباتنا المفضلة، محضّرة خصيصًا ليومك.</p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=700&q=85" alt="إسبريسو">
+            <div class="menu-card-body"><div><h3>إسبريسو</h3><p>قهوة غنية بنكهة قوية</p></div><strong>80 ج.م</strong></div>
+          </article>
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=85" alt="لاتيه">
+            <div class="menu-card-body"><div><h3>كافيه لاتيه</h3><p>إسبريسو مع الحليب الكريمي</p></div><strong>130 ج.م</strong></div>
+          </article>
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=85" alt="كابتشينو">
+            <div class="menu-card-body"><div><h3>كابتشينو</h3><p>مزيج متوازن ورغوة ناعمة</p></div><strong>130 ج.م</strong></div>
+          </article>
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=700&q=85" alt="آيس كوفي">
+            <div class="menu-card-body"><div><h3>آيس كوفي</h3><p>انتعاش القهوة الباردة</p></div><strong>110 ج.م</strong></div>
+          </article>
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=700&q=85" alt="موكا">
+            <div class="menu-card-body"><div><h3>موكا</h3><p>قهوة مع لمسة شوكولاتة</p></div><strong>160 ج.م</strong></div>
+          </article>
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=700&q=85" alt="هوت شوكليت">
+            <div class="menu-card-body"><div><h3>هوت شوكليت</h3><p>شوكولاتة دافئة وغنية</p></div><strong>110 ج.م</strong></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer container">
+      <div><p class="section-kicker">عرض لفترة محدودة</p><h2>قهوتك الثانية<br><span>بنصف السعر!</span></h2><p>شارك لحظتك الحلوة مع شخص بتحبه.</p></div>
+      <a href="#contact" class="light-button">اطلب الآن</a>
+    </section>
+
+    <section class="gallery section container" id="gallery">
+      <div class="section-heading">
+        <p class="section-kicker">من أجوائنا</p>
+        <h2>لحظات <span>تستحق التذوق</span></h2>
+      </div>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=85" alt="جلسة في الكافيه">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85" alt="قهوة على الطاولة">
+        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=85" alt="داخل الكافيه">
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-content">
+       
+        <h2>خلّي قهوتك الجاية <span>علينا</span></h2>
+        <p>زورنا أو تواصل معنا لمعرفة المزيد عن قائمتنا وعروضنا.</p>
+        <div class="contact-items">
+          <span>القاهرة، مصر</span>
+          <!-- <a href="tel:+201000000000">0100 000 0000</a> -->
+         
+          <a  href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+       
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home"><span></span> Brew House</a>
+      <p>© 2026 Brew House. جميع الحقوق محفوظة.</p>
+      <a href="#home">العودة للأعلى </a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
